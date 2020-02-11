@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    </head>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-dark bg-primary">
+    <a class="navbar-brand" href="#!">Weather App</a>
+  </nav>
+  <hr><br>
+
+  <div class="container">
+    
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="city-form">
+      <label for="city-input">Enter A City</label>
+      <input type="text" id="city-input">
+      <br>
+
+      <!-- Button triggers new city to be added -->
+      <input id="add-city" type="submit" value="Enter A City">
+    </form>
+
+    <!-- cities will Get Dumped Here -->
+    <div id="cities-view"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
